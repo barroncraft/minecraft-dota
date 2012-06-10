@@ -1,0 +1,130 @@
+#
+# WorldGuard's main configuration file
+#
+# This is the global configuration file. Anything placed into here will
+# be applied to all worlds. However, each world has its own configuration
+# file to allow you to replace most settings in here for that world only.
+#
+# About editing this file:
+# - DO NOT USE TABS. You MUST use spaces or Bukkit will complain. If
+#   you use an editor like Notepad++ (recommended for Windows users), you
+#   must configure it to "replace tabs with spaces." In Notepad++, this can
+#   be changed in Settings > Preferences > Language Menu.
+# - Don't get rid of the indents. They are indented so some entries are
+#   in categories (like "enforce-single-session" is in the "protection"
+#   category.
+# - If you want to check the format of this file before putting it
+#   into WorldGuard, paste it into http://yaml-online-parser.appspot.com/
+#   and see if it gives "ERROR:".
+# - Lines starting with # are comments and so they are ignored.
+#
+
+protection:
+    enforce-single-session: true
+    item-durability: true
+    remove-infinite-stacks: false
+    disable-xp-orb-drops: true
+    disable-obsidian-generators: false
+chest-protection:
+    enable: false
+    disable-off-check: false
+physics:
+    allow-portal-anywhere: false
+    no-physics-sand: false
+    no-physics-gravel: false
+    disable-water-damage-blocks: []
+ignition:
+    block-tnt-block-damage: false
+    block-tnt: false
+    block-lighter: true
+regions:
+    max-region-count-per-player:
+        default: 7
+    claim-only-inside-existing-regions: false
+    invincibility-removes-mobs: false
+    max-claim-volume: 30000
+    high-frequency-flags: true
+    enable: true
+    use-scheduler: true
+    wand: 287
+    sql:
+        use: false
+        dsn: jdbc:mysql://localhost/worldguard
+        username: worldguard
+        password: worldguard
+simulation:
+    sponge:
+        redstone: false
+        enable: true
+        radius: 3
+fire:
+    disable-lava-fire-spread: true
+    lava-spread-blocks: []
+    disable-fire-spread-blocks: []
+    disable-all-fire-spread: true
+default:
+    disable-health-regain: false
+    pumpkin-scuba: false
+mobs:
+    anti-wolf-dumbness: false
+    block-creature-spawn: []
+    block-fireball-explosions: true
+    block-fireball-block-damage: true
+    block-creeper-block-damage: false
+    disable-enderman-griefing: true
+    block-creeper-explosions: false
+    block-enderdragon-block-damage: false
+dynamics:
+    disable-grass-growth: true
+    disable-ice-melting: true
+    disable-snow-formation: true
+    disable-mushroom-spread: true
+    disable-snow-melting: true
+    disable-leaf-decay: true
+    disable-ice-formation: true
+blacklist:
+    use-as-whitelist: false
+    logging:
+        console:
+            enable: true
+        file:
+            path: worldguard/logs/%Y-%m-%d.log
+            enable: false
+            open-files: 10
+        database:
+            dsn: jdbc:mysql://localhost:3306/minecraft
+            enable: false
+            table: blacklist_events
+            user: root
+            pass: ''
+summary-on-start: true
+weather:
+    always-raining: false
+    disable-powered-creepers: false
+    disable-weather: true
+    disable-lightning-strike-fire: false
+    always-thundering: false
+    prevent-lightning-strike-blocks: []
+    disable-thunderstorm: false
+    disable-pig-zombification: false
+crops:
+    disable-creature-trampling: false
+    disable-player-trampling: false
+use-player-move-event: true
+op-permissions: true
+player-damage:
+    teleport-on-void-falling: false
+    disable-drowning-damage: false
+    disable-void-damage: false
+    disable-fire-damage: false
+    disable-lava-damage: false
+    teleport-on-suffocation: false
+    disable-death-messages: false
+    disable-mob-damage: false
+    disable-fall-damage: false
+    disable-explosion-damage: false
+    disable-suffocation-damage: false
+    disable-contact-damage: false
+    disable-lightning-damage: false
+auto-invincible-permission: false
+auto-invincible: false

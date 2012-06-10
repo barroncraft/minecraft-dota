@@ -1,0 +1,16 @@
+permissions:
+  backends:
+    file:
+      file: permissions.yml
+  backend: file
+  superperms:
+    disable-unmatched: false
+    enable: true
+    debug: false
+    strict-mode: false
+    parent-nodes: true
+  createUserRecords: false
+  allowOps: true
+  debug: false
+  basedir: plugins/PermissionsEx
+  log-players: false

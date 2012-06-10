@@ -1,0 +1,16 @@
+cfg-version: 4
+message: You have reached the edge of this world.
+round-border: false
+debug-mode: false
+whoosh-effect: false
+knock-back-dist: 3.0
+timer-delay-ticks: 5
+worlds:
+  chaos:
+    x: 422.09375
+    z: 149.125
+    radius: 500
+  dota:
+    x: -1066.4545359936983
+    z: 320.96064874401065
+    radius: 250

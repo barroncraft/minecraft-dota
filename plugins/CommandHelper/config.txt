@@ -1,0 +1,7 @@
+/day = /time set 0
+/night = /time set 20000
+*:/team = /clan roster
+*:/scores = /clan leaderboard
+*:/recall = /clan home
+*:/red = /sce join red
+*:/blue = /sce join blue

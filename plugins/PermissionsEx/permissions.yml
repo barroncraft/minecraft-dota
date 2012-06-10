@@ -1,0 +1,27 @@
+groups:
+  Admins:
+    prefix: '&5'
+    suffix: '&c'
+    permissions:
+    - '*'
+    options:
+      rank: '0'
+  Members:
+    default: true
+    prefix: '&e'
+    suffix: '&f'
+    options:
+      rank: '1'
+    permissions:
+    - modifyworld.*
+    - worldedit.navigation.unstuck
+    - simpleclans.member.can-join
+    - simpleclans.member.roster
+    - simpleclans.member.home
+    - simpleclans.anyone.*
+    - deathcontrol.use
+    - deathcontrol.info
+    - commandbook.motd
+    - commandbook.rules
+    - chestbank.use.*
+users:
