@@ -74,6 +74,7 @@ mobs:
     disable-enderman-griefing: true
     block-creeper-explosions: false
     block-enderdragon-block-damage: false
+    block-painting-destroy: false
 dynamics:
     disable-grass-growth: true
     disable-ice-melting: true
@@ -126,5 +127,4 @@ player-damage:
     disable-suffocation-damage: false
     disable-contact-damage: false
     disable-lightning-damage: false
-auto-invincible-permission: false
 auto-invincible: false

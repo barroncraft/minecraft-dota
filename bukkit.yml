@@ -16,44 +16,29 @@
 settings:
   allow-end: false
   warn-on-overload: true
-  spawn-radius: 1
+  spawn-radius: 16
   permissions-file: permissions.yml
   update-folder: update
   ping-packet-limit: 100
   use-exact-login-location: false
   plugin-profiling: false
   connection-throttle: 4000
-  restart-script-location: start.bat
+  query-plugins: true
+  timeout-time: 180
+spawn-limits:
+  monsters: 70
+  animals: 4
+  water-animals: 0
 world-settings:
-  default:
-    growth-chunks-per-tick: 650
-    mob-spawn-range: 4
-    monsters-per-chunk: 70
-    land-creatures-per-chunk: 15
-    water-creatures-per-chunk: 5
-    item-merge-radius: 3.5
-    random-light-updates: false
-    aggregate-chunkticks: 4
-    chunky-freeze-temperature: true
-  world:
-    growth-chunks-per-tick: 1000
-  world_nether:
-    growth-chunks-per-tick: 0
-    random-light-updates: true
-    water-creatures-per-chunk: 0
   dota:
     growth-chunks-per-tick: 0
     mob-spawn-range: 4
-    monsters-per-chunk: 70
-    land-creatures-per-chunk: 15
-    water-creatures-per-chunk: 5
     item-merge-radius: 3.5
     random-light-updates: false
     aggregate-chunkticks: 4
-    chunky-freeze-temperature: true
 ticks-per:
-  animal-spawns: 400
-  monster-spawns: 1
+  animal-spawns: 0
+  monster-spawns: 0
 auto-updater:
   enabled: true
   on-broken:

@@ -7,13 +7,12 @@
 
 use-bukkit-permissions: true
 logging-level: standard
+multi-world:
+  allow-cross-world: true
+  limited-worlds: []
 DeathCauses:
-  CACTUS, SUFFOCATION, FALL, VOID, SUICIDE, STARVATION, LIGHTNING, LAVA, FIRE, EXPLOSION, MOB, PLAYER, UNKNOWN:
+  CACTUS, DROWNING, SUFFOCATION, FALL, VOID, SUICIDE, STARVATION, LIGHTNING, LAVA, FIRE, EXPLOSION, MOB, PLAYER, UNKNOWN:
     keep-inventory: true
     whitelist:
     - armor
     - weapons
-  DROWNING:
-    keep-inventory: true
-    whitelist:
-    - armor

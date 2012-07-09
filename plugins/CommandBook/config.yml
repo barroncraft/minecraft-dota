@@ -85,15 +85,17 @@ component:
         list-on-join: true
     stored-messages:
         motd: |-
-            `YHello, `w%name% `Yand welcome to DOTA Minecaft
+            `YHello, `w%name% `Yand welcome to Barron Minecaft
             `YBe sure to read `whttp://bit.ly/mcdota `Ybefore you play
             `YFor more information try `w/help `Yor `w/rules
             `YIf you are ready to begin, type `r/red `Yor `b/blue `Yto join a team
+            `rServer Full?  Try dota2.barroncraft.com
         rules: |-
             `rRULES:
             `Y- Be nice and play honorably, we're all here to have fun.   
             `Y- Work together with your team, all for one and one for all. 
             `Y- No entering the opposing base until all towers are down. 
+            `Y- No entering the opposing spawn area.
             `Y- No cheats hacks or exploits, you will be banned. 
     spawn-locations:
         exact-spawn: false

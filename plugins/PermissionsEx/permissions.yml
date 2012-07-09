@@ -14,6 +14,10 @@ groups:
       rank: '1'
     permissions:
     - modifyworld.*
+    - bukkit.command.list
+    - bukkit.command.tell
+    - bukkit.command.me
+    - bukkit.command.help
     - worldedit.navigation.unstuck
     - simpleclans.member.can-join
     - simpleclans.member.roster

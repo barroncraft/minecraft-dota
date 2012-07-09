@@ -13,8 +13,8 @@ regions:
     __global__:
         type: global
         priority: 0
-        flags: {feed-delay: 10, vehicle-place: allow, pvp: allow, passthrough: allow,
-            vehicle-destroy: allow, feed-amount: 1, build: deny}
+        flags: {creeper-explosion: deny, feed-delay: 10, vehicle-place: allow, pvp: allow,
+            vehicle-destroy: allow, feed-amount: 1, passthrough: allow, build: deny}
         owners: {}
         members: {}
     bluearm:
