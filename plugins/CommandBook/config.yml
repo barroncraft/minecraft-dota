@@ -85,10 +85,11 @@ component:
         list-on-join: true
     stored-messages:
         motd: |-
-            `YHello, `w%name% `Yand welcome to Minecaft Dota
+            `YHello, `w%name% `Yand welcome to Barron Minecaft
             `YBe sure to read `whttp://bit.ly/mcdota `Ybefore you play
             `YFor more information try `w/help `Yor `w/rules
             `YIf you are ready to begin, type `r/red `Yor `b/blue `Yto join a team
+            `rGates stuck? You can /surrender to end the game.
         rules: |-
             `rRULES:
             `Y- Be nice and play honorably, we're all here to have fun.   
