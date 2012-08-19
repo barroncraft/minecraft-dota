@@ -1,0 +1,8 @@
+*.jar
+*.log
+*.log.lck
+banned-ips.txt
+banned-players.txt
+ops.txt
+white-list.txt
+wepif.yml
