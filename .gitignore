@@ -2,6 +2,7 @@
 *.old
 *.log
 *.log.lck
+*.ms
 banned-ips.txt
 banned-players.txt
 ops.txt
@@ -11,3 +12,5 @@ permissions.yml
 help.yml
 dota
 dota/
+plugins/CommandBook/Sessions/
+plugins/PluginMetrics/
