@@ -12,5 +12,5 @@ permissions.yml
 help.yml
 dota
 dota/
-plugins/CommandBook/Sessions/
+plugins/CommandBook/sessions/
 plugins/PluginMetrics/
