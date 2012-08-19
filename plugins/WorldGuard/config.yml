@@ -75,6 +75,7 @@ mobs:
     block-creeper-explosions: false
     block-enderdragon-block-damage: false
     block-painting-destroy: false
+    block-plugin-spawning: false
 dynamics:
     disable-grass-growth: true
     disable-ice-melting: true
@@ -128,3 +129,4 @@ player-damage:
     disable-contact-damage: false
     disable-lightning-damage: false
 auto-invincible: false
+host-keys: {}
