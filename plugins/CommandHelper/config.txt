@@ -5,4 +5,5 @@
 *:/recall = /clan home
 *:/red = /sce join red
 *:/blue = /sce join blue
+*:/surrender = /sce surrender
 *:/info = msg('Barron Minecraft Dota Server v3.5') \ msg('Created and maintained by Nullreff') \ msg('For more information, check out:') \ msg('http://wiki.barroncraft.com/')
