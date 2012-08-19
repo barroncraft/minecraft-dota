@@ -49,6 +49,14 @@ regions:
         flags: {chest-access: allow}
         owners: {}
         members: {}
+    bluesarmor:
+        type: cuboid
+        min: {x: -923.0, y: 52.0, z: 245.0}
+        max: {x: -923.0, y: 52.0, z: 253.0}
+        priority: 0
+        flags: {chest-access: deny}
+        owners: {}
+        members: {}
     blueshop1:
         type: cuboid
         min: {x: -967.0, y: 45.0, z: 253.0}
@@ -71,6 +79,14 @@ regions:
         max: {x: -939.0, y: 53.0, z: 197.0}
         priority: 0
         flags: {pvp: deny, passthrough: allow}
+        owners: {}
+        members: {}
+    bluesweapons:
+        type: cuboid
+        min: {x: -1012.0, y: 51.0, z: 160.0}
+        max: {x: -1007.0, y: 51.0, z: 160.0}
+        priority: 0
+        flags: {chest-access: deny}
         owners: {}
         members: {}
     bluewep:
@@ -129,6 +145,14 @@ regions:
         flags: {chest-access: allow}
         owners: {}
         members: {}
+    redsarmor:
+        type: cuboid
+        min: {x: -1212.0, y: 52.0, z: 382.0}
+        max: {x: -1212.0, y: 52.0, z: 390.0}
+        priority: 0
+        flags: {chest-access: deny}
+        owners: {}
+        members: {}
     redshop1:
         type: cuboid
         min: {x: -1176.0, y: 45.0, z: 375.0}
@@ -151,6 +175,14 @@ regions:
         max: {x: -1172.0, y: 53.0, z: 458.0}
         priority: 0
         flags: {pvp: deny, passthrough: allow}
+        owners: {}
+        members: {}
+    redsweapons:
+        type: cuboid
+        min: {x: -1128.0, y: 51.0, z: 475.0}
+        max: {x: -1123.0, y: 51.0, z: 475.0}
+        priority: 0
+        flags: {chest-access: deny}
         owners: {}
         members: {}
     redwep:
