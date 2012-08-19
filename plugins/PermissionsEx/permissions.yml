@@ -29,3 +29,6 @@ groups:
     - commandbook.rules
     - chestbank.use.*
 users:
+  NullReff:
+    group:
+    - Admins
