@@ -47,9 +47,6 @@
 # REMEMBER: If a line has # in front, it will be ignored.
 #
 
-[spawnegg]
-on-use=deny,tell
-
 # Deny lava buckets
 [lavabucket]
 on-use=deny,tell
