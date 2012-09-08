@@ -11,6 +11,5 @@ wepif.yml
 permissions.yml
 help.yml
 dota
-dota/
 plugins/CommandBook/sessions/
 plugins/PluginMetrics/

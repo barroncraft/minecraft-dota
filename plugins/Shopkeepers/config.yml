@@ -1,0 +1,54 @@
+disable-other-villagers: true
+block-villager-spawns: false
+save-instantly: true
+
+create-player-shop-with-command: true
+create-player-shop-with-egg: true
+deleting-player-shop-returns-egg: false
+allow-custom-quantities: true
+allow-player-book-shop: true
+protect-chests: true
+max-shops-per-player: 0
+max-chest-distance: 15
+
+editor-title: "Shopkeeper Editor"
+save-item: 133
+delete-item: 51
+
+currency-item: 388
+currency-item-data: 0
+zero-item: 341
+
+high-currency-item: 133
+high-currency-item-data: 0
+high-currency-value: 9
+high-currency-min-cost: 20
+high-zero-item: 341
+
+msg-selected-normal-shop: "&aNormal shopkeeper selected (sells items to players)."
+msg-selected-book-shop: "&aBook shopkeeper selected (sell books)."
+msg-selected-buy-shop: "&aBuying shopkeeper selected (buys items from players)."
+msg-selected-chest: "&aChest selected! Right click a block to place your shopkeeper."
+msg-must-select-chest: "&aYou must right-click a chest before placing your shopkeeper."
+msg-chest-too-far: "&aThe shopkeeper's chest is too far away!"
+
+msg-player-shop-created: |
+    &aShopkeeper created!
+    &aAdd items you want to sell to your chest, then
+    &aright-click the villager while sneaking to modify costs.
+msg-book-shop-created: |
+    &aShopkeeper created!
+    &aAdd written books and blank books to your chest, then
+    &aright-click the villager while sneaking to modify costs.
+msg-buy-shop-created: |
+    &aShopkeeper created!
+    &aAdd one of each item you want to sell to your chest, then
+    &aright-click the villager while sneaking to modify costs.
+msg-admin-shop-created: |
+    &aShopkeeper created!
+    &aRight-click the villager while sneaking to modify trades.
+msg-shop-create-fail: "&aYou cannot create a shopkeeper there."
+msg-too-many-shops: "&aYou have too many shops."
+msg-shop-in-use: "&aSomeone else is already purchasing from this shopkeeper."
+
+debug: false

@@ -26,13 +26,9 @@ settings:
   query-plugins: true
   deprecated-verbose: default
   restart-script-location: start.bat
-  whitelist-message: You are not white-listed on this server!
   timeout-time: 180
   restart-on-crash: false
-spawn-limits:
-  monsters: 70
-  animals: 4
-  water-animals: 0
+  whitelist-message: Server is down for maintenece.  Check back later.
 world-settings:
   default:
     growth-chunks-per-tick: 650
@@ -59,26 +55,6 @@ world-settings:
     item-merge-radius: 3.5
     random-light-updates: false
     aggregate-chunkticks: 4
-ticks-per:
-  animal-spawns: 0
-  monster-spawns: 0
-auto-updater:
-  enabled: true
-  on-broken:
-  - warn-console
-  - warn-ops
-  on-update:
-  - warn-console
-  - warn-ops
-  preferred-channel: rb
-  host: dl.bukkit.org
-  suggest-channels: true
-database:
-  username: bukkit
-  isolation: SERIALIZABLE
-  driver: org.sqlite.JDBC
-  password: walrus
-  url: jdbc:sqlite:{DIR}{NAME}.db
 storm-settings:
   strong-electrical-storm:
     chance: 5
@@ -104,3 +80,27 @@ storm-settings:
     chance: 100
     lightning-delay: 500
     lightning-random-delay: 2000
+spawn-limits:
+  monsters: 70
+  animals: 4
+  water-animals: 0
+ticks-per:
+  animal-spawns: 0
+  monster-spawns: 0
+auto-updater:
+  enabled: true
+  on-broken:
+  - warn-console
+  - warn-ops
+  on-update:
+  - warn-console
+  - warn-ops
+  preferred-channel: rb
+  host: dl.bukkit.org
+  suggest-channels: true
+database:
+  username: bukkit
+  isolation: SERIALIZABLE
+  driver: org.sqlite.JDBC
+  password: walrus
+  url: jdbc:sqlite:{DIR}{NAME}.db
