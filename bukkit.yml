@@ -28,7 +28,7 @@ settings:
   restart-script-location: start.bat
   timeout-time: 180
   restart-on-crash: false
-  whitelist-message: You are not white-listed on this server!
+  whitelist-message: Server is down for maintenece.  Check back later.
 world-settings:
   default:
     growth-chunks-per-tick: 650
