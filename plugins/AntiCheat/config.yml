@@ -1,0 +1,18 @@
+XRay:
+  Log xray stats: false
+  Alert when xray is found: false
+Events:
+  Level Medium: NONE
+  Level High: NONE
+  Medium threshold: 20
+  High threshold: 50
+System:
+  Auto update: true
+  Log to console: false
+  File log level: 1
+  Verbose startup: false
+  Block chat spam: true
+  Block command spam: true
+  Silent mode: false
+Enable in:
+- dota
