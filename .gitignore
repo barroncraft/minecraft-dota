@@ -3,6 +3,7 @@
 *.log
 *.log.lck
 *.ms
+*.db
 banned-ips.txt
 banned-players.txt
 ops.txt
@@ -10,6 +11,6 @@ white-list.txt
 wepif.yml
 permissions.yml
 help.yml
-dota
 plugins/CommandBook/sessions/
 plugins/PluginMetrics/
+plugins/AntiCheat/data/
