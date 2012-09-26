@@ -1,6 +1,0 @@
-networks:
-  names: bank
-  bank:
-    locations: dota:-988:44:197:-989:44:197;dota:-986:44:197;dota:-986:45:198;dota:-991:44:197;dota:-991:45:198;dota:-1149:45:437;dota:-1149:44:438;dota:-1147:44:438:-1146:44:438;dota:-1144:44:438;dota:-1144:45:437
-banks: ''
-accounts:
