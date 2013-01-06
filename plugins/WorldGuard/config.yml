@@ -33,6 +33,7 @@ physics:
     no-physics-sand: false
     no-physics-gravel: false
     disable-water-damage-blocks: []
+    vine-like-rope-ladders: false
 ignition:
     block-tnt-block-damage: false
     block-tnt: false
@@ -52,6 +53,7 @@ regions:
         dsn: jdbc:mysql://localhost/worldguard
         username: worldguard
         password: worldguard
+    use-creature-spawn-event: true
 simulation:
     sponge:
         redstone: false
@@ -76,6 +78,13 @@ mobs:
     block-enderdragon-block-damage: false
     block-painting-destroy: false
     block-plugin-spawning: false
+    block-wither-explosions: false
+    block-wither-block-damage: false
+    block-wither-skull-explosions: false
+    block-wither-skull-block-damage: false
+    block-enderdragon-portal-creation: false
+    block-item-frame-destroy: false
+    block-above-ground-slimes: false
 dynamics:
     disable-grass-growth: true
     disable-ice-melting: true
@@ -84,6 +93,7 @@ dynamics:
     disable-snow-melting: true
     disable-leaf-decay: true
     disable-ice-formation: true
+    disable-mycelium-spread: false
 blacklist:
     use-as-whitelist: false
     logging:
@@ -130,3 +140,9 @@ player-damage:
     disable-lightning-damage: false
 auto-invincible: false
 host-keys: {}
+security:
+    deop-everyone-on-join: false
+    block-in-game-op-command: false
+gameplay:
+    block-potions: []
+    block-potions-overly-reliably: false

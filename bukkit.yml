@@ -2,21 +2,9 @@
 # As you can see, there's actually not that much to configure without any plugins.
 # For a reference for any variable inside this file, check out the bukkit wiki at
 # http://wiki.bukkit.org/Bukkit.yml
-# 
-# If you need help on this file, feel free to join us on irc or leave a message
-# on the forums asking for advice.
-# 
-# IRC: #bukkit @ esper.net
-#    (If this means nothing to you, just go to http://webchat.esper.net/?channels=bukkit )
-# Forums: http://forums.bukkit.org/forums/bukkit-help.6/
-# Twitter: http://twitter.com/Craftbukkit
-# Bug tracker: http://leaky.bukkit.org/
-
-
 settings:
   allow-end: false
   warn-on-overload: true
-  spawn-radius: 16
   permissions-file: permissions.yml
   update-folder: update
   ping-packet-limit: 100
@@ -25,15 +13,23 @@ settings:
   connection-throttle: 4000
   query-plugins: true
   deprecated-verbose: default
+  shutdown-message: Server closed
   restart-script-location: start.bat
   timeout-time: 180
   restart-on-crash: false
+  filter-unsafe-ips: false
   whitelist-message: Server is down for maintenece.  Check back later.
+  log-commands: true
+  command-complete: true
+  spam-exclusions:
+  - /skill
+  stop-message: Server restarting. Brb
 world-settings:
   default:
     growth-chunks-per-tick: 650
     mob-spawn-range: 4
     item-merge-radius: 3.5
+    exp-merge-radius: 3.5
     random-light-updates: false
     aggregate-chunkticks: 4
     wheat-growth-modifier: 100
@@ -84,9 +80,14 @@ spawn-limits:
   monsters: 70
   animals: 4
   water-animals: 0
+  ambient: 15
+chunk-gc:
+  period-in-ticks: 600
+  load-threshold: 0
 ticks-per:
   animal-spawns: 0
   monster-spawns: 0
+  autosave: 0
 auto-updater:
   enabled: true
   on-broken:
