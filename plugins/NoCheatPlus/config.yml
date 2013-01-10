@@ -3,10 +3,10 @@ savebackconfig: true
 logging:
   active: true
   debug: false
-  console: true
+  console: false
   file: true
   filename: nocheatplus.log
-  ingamechat: true
+  ingamechat: false
 miscellaneous:
   allowclientmods: false
   opinconsoleonly: false
