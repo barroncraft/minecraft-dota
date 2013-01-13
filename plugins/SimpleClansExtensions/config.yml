@@ -1,0 +1,19 @@
+world: dota
+joinDifference: 1
+maxTimeEmpty: 300
+teamBalancing: true
+clans:
+ red: 
+  baseRegion: redBase
+  spawnRegion: redspawn
+  spawn: 
+   x: -1189
+   y: 48
+   z: 444
+ blue:
+  baseRegion: blueBase
+  spawnRegion: bluespawn
+  spawn:
+   x: -943
+   y: 48
+   z: 187
