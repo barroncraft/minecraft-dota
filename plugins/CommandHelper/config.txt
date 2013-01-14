@@ -7,4 +7,4 @@
 *:/blue = /sce join blue
 *:/surrender = /sce surrender
 *:/towers = /sce towers
-*:/info = msg('Barron Minecraft Dota Server v4.0') \ msg('Created and maintained by Nullreff') \ msg('For more information, check out:') \ msg('http://wiki.barroncraft.com/')
+*:/info = msg('Barron Minecraft Dota Server v4.1') \ msg('Created and maintained by Nullreff') \ msg('For more information, check out:') \ msg('http://wiki.barroncraft.com/')
