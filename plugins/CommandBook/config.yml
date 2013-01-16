@@ -85,7 +85,7 @@ component:
         list-on-join: true
     stored-messages:
         motd: |-
-            `YHello, `w%name% `Yand welcome to Barron Minecaft
+            `YHello, `w%name% `Yand welcome to Barron Minecraft
             `YBe sure to read `whttp://bit.ly/mcdota `Ybefore you play
             `YFor more information try `w/help `Yor `w/rules
             `YIf you are ready to begin, type `r/red `Yor `b/blue `Yto join a team
