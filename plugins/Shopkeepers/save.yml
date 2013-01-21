@@ -3,6 +3,7 @@
   x: -1185
   y: 44
   z: 447
+  uuid: fda75538-ff71-41da-a979-1cfa387f7c6f
   prof: 5
   object: villager
   type: admin
@@ -46,6 +47,33 @@
     '4':
       '0':
         id: 256
+        data: 0
+        amt: 1
+      '2':
+        id: 367
+        data: 0
+        amt: 3
+    '5':
+      '0':
+        id: 261
+        data: 0
+        amt: 1
+      '2':
+        id: 367
+        data: 0
+        amt: 3
+    '6':
+      '0':
+        id: 391
+        data: 0
+        amt: 1
+      '2':
+        id: 367
+        data: 0
+        amt: 3
+    '7':
+      '0':
+        id: 392
         data: 0
         amt: 1
       '2':
@@ -57,6 +85,7 @@
   x: -1185
   y: 44
   z: 445
+  uuid: 74fd09a8-4ba0-424a-8799-d620573a24b7
   prof: 5
   object: villager
   type: admin
@@ -100,6 +129,33 @@
     '4':
       '0':
         id: 256
+        data: 0
+        amt: 1
+      '2':
+        id: 367
+        data: 0
+        amt: 3
+    '5':
+      '0':
+        id: 261
+        data: 0
+        amt: 1
+      '2':
+        id: 367
+        data: 0
+        amt: 3
+    '6':
+      '0':
+        id: 391
+        data: 0
+        amt: 1
+      '2':
+        id: 367
+        data: 0
+        amt: 3
+    '7':
+      '0':
+        id: 392
         data: 0
         amt: 1
       '2':
@@ -111,6 +167,7 @@
   x: -1185
   y: 44
   z: 443
+  uuid: ece39594-4ec4-46db-a1b9-d0735ed644e9
   prof: 5
   object: villager
   type: admin
@@ -154,6 +211,33 @@
     '4':
       '0':
         id: 256
+        data: 0
+        amt: 1
+      '2':
+        id: 367
+        data: 0
+        amt: 3
+    '5':
+      '0':
+        id: 261
+        data: 0
+        amt: 1
+      '2':
+        id: 367
+        data: 0
+        amt: 3
+    '6':
+      '0':
+        id: 391
+        data: 0
+        amt: 1
+      '2':
+        id: 367
+        data: 0
+        amt: 3
+    '7':
+      '0':
+        id: 392
         data: 0
         amt: 1
       '2':
@@ -165,6 +249,7 @@
   x: -1185
   y: 44
   z: 441
+  uuid: 504755a5-9c9b-4a93-a45a-2e48e0c0d2a0
   prof: 5
   object: villager
   type: admin
@@ -208,6 +293,33 @@
     '4':
       '0':
         id: 256
+        data: 0
+        amt: 1
+      '2':
+        id: 367
+        data: 0
+        amt: 3
+    '5':
+      '0':
+        id: 261
+        data: 0
+        amt: 1
+      '2':
+        id: 367
+        data: 0
+        amt: 3
+    '6':
+      '0':
+        id: 391
+        data: 0
+        amt: 1
+      '2':
+        id: 367
+        data: 0
+        amt: 3
+    '7':
+      '0':
+        id: 392
         data: 0
         amt: 1
       '2':
@@ -219,6 +331,7 @@
   x: -1185
   y: 44
   z: 439
+  uuid: a006d281-8fa4-4a19-8630-8cf1f3cd2150
   prof: 5
   object: villager
   type: admin
@@ -262,6 +375,33 @@
     '4':
       '0':
         id: 256
+        data: 0
+        amt: 1
+      '2':
+        id: 367
+        data: 0
+        amt: 3
+    '5':
+      '0':
+        id: 261
+        data: 0
+        amt: 1
+      '2':
+        id: 367
+        data: 0
+        amt: 3
+    '6':
+      '0':
+        id: 391
+        data: 0
+        amt: 1
+      '2':
+        id: 367
+        data: 0
+        amt: 3
+    '7':
+      '0':
+        id: 392
         data: 0
         amt: 1
       '2':
@@ -426,6 +566,7 @@
   x: -1125
   y: 44
   z: 474
+  uuid: cfe0c39f-e52f-45d0-ac85-253a6a907dfd
   prof: 3
   object: villager
   type: admin
@@ -459,6 +600,7 @@
   x: -1128
   y: 44
   z: 474
+  uuid: 3a7756cc-3683-471d-882e-3c7adcc4e6b6
   prof: 3
   object: villager
   type: admin
@@ -492,6 +634,7 @@
   x: -1122
   y: 44
   z: 474
+  uuid: 38ef9ab5-f765-4c5a-a7ca-7d912a6c1fe3
   prof: 3
   object: villager
   type: admin
@@ -558,6 +701,7 @@
   x: -1199
   y: 44
   z: 411
+  uuid: cdb4556f-ff95-4b2c-8a00-412743931fa8
   prof: 1
   object: villager
   type: admin
@@ -627,6 +771,7 @@
   x: -1199
   y: 44
   z: 415
+  uuid: 9207444c-f782-4702-84e9-4998a474a038
   prof: 1
   object: villager
   type: admin
@@ -696,6 +841,7 @@
   x: -1199
   y: 44
   z: 407
+  uuid: 2895599d-a4ec-45a8-9dee-e2e4e80fb3fe
   prof: 1
   object: villager
   type: admin
@@ -765,6 +911,7 @@
   x: -1199
   y: 44
   z: 403
+  uuid: 86078e01-4925-4aba-ac2d-6690485af9f5
   prof: 1
   object: villager
   type: admin
@@ -834,6 +981,7 @@
   x: -1199
   y: 44
   z: 419
+  uuid: 95e5192f-6c94-44ce-b4c0-c63cd3144670
   prof: 1
   object: villager
   type: admin
@@ -903,6 +1051,7 @@
   x: -1151
   y: 44
   z: 461
+  uuid: 288ab84d-5b82-43d9-8e08-6bfcf77ccde8
   prof: 0
   object: villager
   type: admin
@@ -975,6 +1124,7 @@
   x: -1147
   y: 44
   z: 461
+  uuid: c48ca38d-6e35-470b-9bfa-ff3bf5f832e3
   prof: 0
   object: villager
   type: admin
@@ -1047,6 +1197,7 @@
   x: -1143
   y: 44
   z: 461
+  uuid: de6a2725-6890-4d1a-a9ee-87c4134bac28
   prof: 0
   object: villager
   type: admin
@@ -1168,6 +1319,33 @@
         id: 367
         data: 0
         amt: 3
+    '5':
+      '0':
+        id: 261
+        data: 0
+        amt: 1
+      '2':
+        id: 367
+        data: 0
+        amt: 3
+    '6':
+      '0':
+        id: 391
+        data: 0
+        amt: 1
+      '2':
+        id: 367
+        data: 0
+        amt: 3
+    '7':
+      '0':
+        id: 392
+        data: 0
+        amt: 1
+      '2':
+        id: 367
+        data: 0
+        amt: 3
 '21':
   world: dota
   x: -950
@@ -1222,11 +1400,39 @@
         id: 367
         data: 0
         amt: 3
+    '5':
+      '0':
+        id: 261
+        data: 0
+        amt: 1
+      '2':
+        id: 367
+        data: 0
+        amt: 3
+    '6':
+      '0':
+        id: 391
+        data: 0
+        amt: 1
+      '2':
+        id: 367
+        data: 0
+        amt: 3
+    '7':
+      '0':
+        id: 392
+        data: 0
+        amt: 1
+      '2':
+        id: 367
+        data: 0
+        amt: 3
 '22':
   world: dota
   x: -1199
   y: 44
   z: 399
+  uuid: 169bfd1a-9722-48b2-88b4-fafddadb4a5b
   prof: 1
   object: villager
   type: admin
@@ -1296,6 +1502,7 @@
   x: -950
   y: 44
   z: 192
+  uuid: 8ea86a9f-a33f-4b59-a82a-709a6de4241b
   prof: 5
   object: villager
   type: admin
@@ -1339,6 +1546,33 @@
     '4':
       '0':
         id: 256
+        data: 0
+        amt: 1
+      '2':
+        id: 367
+        data: 0
+        amt: 3
+    '5':
+      '0':
+        id: 261
+        data: 0
+        amt: 1
+      '2':
+        id: 367
+        data: 0
+        amt: 3
+    '6':
+      '0':
+        id: 391
+        data: 0
+        amt: 1
+      '2':
+        id: 367
+        data: 0
+        amt: 3
+    '7':
+      '0':
+        id: 392
         data: 0
         amt: 1
       '2':
@@ -1350,6 +1584,7 @@
   x: -950
   y: 44
   z: 194
+  uuid: 2d72d78b-0c05-4169-9ad4-2afe98faf0cb
   prof: 5
   object: villager
   type: admin
@@ -1393,6 +1628,33 @@
     '4':
       '0':
         id: 256
+        data: 0
+        amt: 1
+      '2':
+        id: 367
+        data: 0
+        amt: 3
+    '5':
+      '0':
+        id: 261
+        data: 0
+        amt: 1
+      '2':
+        id: 367
+        data: 0
+        amt: 3
+    '6':
+      '0':
+        id: 391
+        data: 0
+        amt: 1
+      '2':
+        id: 367
+        data: 0
+        amt: 3
+    '7':
+      '0':
+        id: 392
         data: 0
         amt: 1
       '2':
@@ -1404,6 +1666,7 @@
   x: -950
   y: 44
   z: 196
+  uuid: 7e7d9d2f-0c96-496d-bfdc-b545b65dd5a9
   prof: 5
   object: villager
   type: admin
@@ -1447,6 +1710,33 @@
     '4':
       '0':
         id: 256
+        data: 0
+        amt: 1
+      '2':
+        id: 367
+        data: 0
+        amt: 3
+    '5':
+      '0':
+        id: 261
+        data: 0
+        amt: 1
+      '2':
+        id: 367
+        data: 0
+        amt: 3
+    '6':
+      '0':
+        id: 391
+        data: 0
+        amt: 1
+      '2':
+        id: 367
+        data: 0
+        amt: 3
+    '7':
+      '0':
+        id: 392
         data: 0
         amt: 1
       '2':
@@ -1746,6 +2036,7 @@
   x: -936
   y: 44
   z: 220
+  uuid: e3e61b10-0a86-4df6-97cb-c837afeb4b01
   prof: 1
   object: villager
   type: admin
@@ -1815,6 +2106,7 @@
   x: -936
   y: 44
   z: 216
+  uuid: 4736b49c-ff75-4c59-a3d5-cf661d2746ac
   prof: 1
   object: villager
   type: admin
@@ -1884,6 +2176,7 @@
   x: -1211
   y: 44
   z: 384
+  uuid: 05f3317e-3bc2-43b4-a236-d132e831f8d7
   prof: 2
   object: villager
   type: admin
@@ -1935,6 +2228,7 @@
   x: -1211
   y: 44
   z: 388
+  uuid: cc628b5c-cc27-4763-b119-26890e945ff2
   prof: 2
   object: villager
   type: admin
@@ -1986,6 +2280,7 @@
   x: -1211
   y: 44
   z: 380
+  uuid: 0caa1c56-3f4a-44ef-8eac-18069f16c840
   prof: 2
   object: villager
   type: admin
@@ -2037,6 +2332,7 @@
   x: -936
   y: 44
   z: 224
+  uuid: fdd2d538-e60b-41e3-9aa4-57af1886859d
   prof: 1
   object: villager
   type: admin
@@ -2106,6 +2402,7 @@
   x: -936
   y: 44
   z: 228
+  uuid: 2475a6a8-09f9-4803-8309-7a7005b446a8
   prof: 1
   object: villager
   type: admin
@@ -2175,6 +2472,7 @@
   x: -936
   y: 44
   z: 232
+  uuid: cbab9544-d759-4805-9a7a-4248cdd58631
   prof: 1
   object: villager
   type: admin
@@ -2244,6 +2542,7 @@
   x: -936
   y: 44
   z: 236
+  uuid: 4ef0d22c-4ae5-40d6-a2e4-ebfb96e50f55
   prof: 1
   object: villager
   type: admin
@@ -2313,6 +2612,7 @@
   x: -1155
   y: 44
   z: 461
+  uuid: 50c55d70-239d-4d93-a3a2-a73ab4de566c
   prof: 0
   object: villager
   type: admin
@@ -2385,6 +2685,7 @@
   x: -1159
   y: 44
   z: 461
+  uuid: a15984c3-7852-4852-a886-9c07170a86dd
   prof: 0
   object: villager
   type: admin
@@ -2457,6 +2758,7 @@
   x: -1163
   y: 44
   z: 461
+  uuid: 5519147b-f0d0-4194-bb99-fe629aceae87
   prof: 0
   object: villager
   type: admin
@@ -2529,6 +2831,7 @@
   x: -1172
   y: 44
   z: 381
+  uuid: 4c31667d-686f-44e9-a5f2-ad3e0f3cdc3c
   prof: 4
   object: villager
   type: admin
@@ -2565,6 +2868,7 @@
   x: -963
   y: 44
   z: 254
+  uuid: 4d046094-e47e-4749-ad06-2b24de4d8432
   prof: 4
   object: villager
   type: admin
@@ -2667,6 +2971,7 @@
   x: -1010
   y: 44
   z: 208
+  uuid: 4605dc27-c5b3-47fc-a002-ce30205bbe9a
   prof: 4
   object: villager
   type: admin
@@ -2847,6 +3152,7 @@
   x: -1125
   y: 44
   z: 427
+  uuid: aba93677-db8d-4112-b591-e667a8c4b74c
   prof: 4
   object: villager
   type: admin
