@@ -49,6 +49,22 @@ regions:
         flags: {chest-access: allow}
         owners: {}
         members: {}
+    bluenexus1:
+        type: cuboid
+        min: {x: -978.0, y: 16.0, z: 224.0}
+        max: {x: -964.0, y: 58.0, z: 234.0}
+        priority: 0
+        flags: {passthrough: allow, entry: deny}
+        owners: {}
+        members: {}
+    bluenexus2:
+        type: cuboid
+        min: {x: -986.0, y: 16.0, z: 212.0}
+        max: {x: -976.0, y: 58.0, z: 226.0}
+        priority: 0
+        flags: {passthrough: allow, entry: deny}
+        owners: {}
+        members: {}
     bluesarmor:
         type: cuboid
         min: {x: -923.0, y: 52.0, z: 245.0}
@@ -87,6 +103,46 @@ regions:
         max: {x: -1007.0, y: 51.0, z: 160.0}
         priority: 0
         flags: {chest-access: deny}
+        owners: {}
+        members: {}
+    bluetower1:
+        type: cuboid
+        min: {x: -1046.0, y: 43.0, z: 177.0}
+        max: {x: -1040.0, y: 56.0, z: 184.0}
+        priority: 0
+        flags: {passthrough: allow, entry: deny}
+        owners: {}
+        members: {}
+    bluetower2:
+        type: cuboid
+        min: {x: -1134.0, y: 43.0, z: 187.0}
+        max: {x: -1128.0, y: 56.0, z: 194.0}
+        priority: 0
+        flags: {passthrough: allow, entry: deny}
+        owners: {}
+        members: {}
+    bluetower3:
+        type: cuboid
+        min: {x: -1044.0, y: 43.0, z: 289.0}
+        max: {x: -1038.0, y: 56.0, z: 296.0}
+        priority: 0
+        flags: {passthrough: allow, entry: deny}
+        owners: {}
+        members: {}
+    bluetower4:
+        type: cuboid
+        min: {x: -946.0, y: 43.0, z: 282.0}
+        max: {x: -939.0, y: 56.0, z: 288.0}
+        priority: 0
+        flags: {passthrough: allow, entry: deny}
+        owners: {}
+        members: {}
+    bluetower5:
+        type: cuboid
+        min: {x: -945.0, y: 43.0, z: 372.0}
+        max: {x: -938.0, y: 56.0, z: 378.0}
+        priority: 0
+        flags: {passthrough: allow, entry: deny}
         owners: {}
         members: {}
     bluewep:
@@ -145,6 +201,22 @@ regions:
         flags: {chest-access: allow}
         owners: {}
         members: {}
+    redneuxs1:
+        type: cuboid
+        min: {x: -1170.0, y: 17.0, z: 401.0}
+        max: {x: -1157.0, y: 58.0, z: 411.0}
+        priority: 0
+        flags: {passthrough: allow, entry: deny}
+        owners: {}
+        members: {}
+    rednexus2:
+        type: cuboid
+        min: {x: -1159.0, y: 17.0, z: 409.0}
+        max: {x: -1149.0, y: 58.0, z: 422.0}
+        priority: 0
+        flags: {passthrough: allow, entry: deny}
+        owners: {}
+        members: {}
     redsarmor:
         type: cuboid
         min: {x: -1212.0, y: 52.0, z: 382.0}
@@ -183,6 +255,46 @@ regions:
         max: {x: -1123.0, y: 51.0, z: 475.0}
         priority: 0
         flags: {chest-access: deny}
+        owners: {}
+        members: {}
+    redtower1:
+        type: cuboid
+        min: {x: -1095.0, y: 43.0, z: 451.0}
+        max: {x: -1089.0, y: 56.0, z: 458.0}
+        priority: 0
+        flags: {passthrough: allow, entry: deny}
+        owners: {}
+        members: {}
+    redtower2:
+        type: cuboid
+        min: {x: -1007.0, y: 43.0, z: 441.0}
+        max: {x: -1001.0, y: 56.0, z: 448.0}
+        priority: 0
+        flags: {passthrough: allow, entry: deny}
+        owners: {}
+        members: {}
+    redtower3:
+        type: cuboid
+        min: {x: -1097.0, y: 43.0, z: 339.0}
+        max: {x: -1091.0, y: 56.0, z: 346.0}
+        priority: 0
+        flags: {passthrough: allow, entry: deny}
+        owners: {}
+        members: {}
+    redtower4:
+        type: cuboid
+        min: {x: -1196.0, y: 43.0, z: 347.0}
+        max: {x: -1189.0, y: 56.0, z: 353.0}
+        priority: 0
+        flags: {passthrough: allow, entry: deny}
+        owners: {}
+        members: {}
+    redtower5:
+        type: cuboid
+        min: {x: -1197.0, y: 43.0, z: 257.0}
+        max: {x: -1190.0, y: 56.0, z: 263.0}
+        priority: 0
+        flags: {passthrough: allow, entry: deny}
         owners: {}
         members: {}
     redwep:
