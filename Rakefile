@@ -2,6 +2,7 @@
 require 'fileutils'
 require 'tmpdir'
 include FileUtils
+Rake::FileUtilsExt.verbose(false)
 
 # Change these to match your setup
 WORLD_PATH="worlds/dota"
@@ -87,7 +88,7 @@ def package
 
         # Compress files
         Dir.chdir(tempdir) do
-            system "zip -r #{file_name}.zip #{file_name}"
+            system "zip -r #{file_name}.zip #{file_name} > /dev/null"
         end
         mv "#{tempdir}/#{file_name}.zip", "."
         puts "Release created in #{file_name}.zip"
