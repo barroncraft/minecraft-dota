@@ -38,7 +38,7 @@ def backup
     File.exist?(BACKUP_PATH)              and abort("Backup already exists at #{BACKUP_PATH}")
 
     # Create the backup folder and copy the world to it
-    Dir.mkdir(BACKUP_PATH)
+    mkdir_p BACKUP_PATH
     cp_r Dir.glob("#{WORLD_PATH}/*"), BACKUP_PATH
 end
 
@@ -51,7 +51,7 @@ def restore
 
     # Copy over the world from backup and remove the teams database
     rm_rf WORLD_PATH
-    cp_r BACKUP_PATH WORLD_PATH
+    cp_r BACKUP_PATH, WORLD_PATH
     rm_f "plugins/SimpleClans/SimpleClans.db"
 
     # Start Minecraft
