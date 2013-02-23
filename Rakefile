@@ -4,7 +4,7 @@ include FileUtils
 
 # Change these to match your setup
 WORLD_PATH="worlds/dota"
-BACKUP_PATH="backups/dota/original"
+BACKUP_PATH="backups/dota"
 RESET_FILE="reset-required"
 MINECRAFT_START="minecraft.sh start"
 MINECRAFT_STOP="minecraft.sh stop"
