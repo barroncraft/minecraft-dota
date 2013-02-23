@@ -1,5 +1,6 @@
 #!/usr/bin/ruby
 require 'fileutils'
+require 'tmpdir'
 include FileUtils
 
 # Change these to match your setup
@@ -68,9 +69,9 @@ def package
     # Create a temporary directory to do all our work in
     Dir.mktmpdir do |tempdir|
 
-        version=`git describe --abbrev=0`
-        name="Barron_Minecraft_Dota_#{version}"
-        target="#{tempdir}/$name"
+        version = `git describe --abbrev=0`.strip
+        file_name = "Barron_Minecraft_Dota_#{version}"
+        target = "#{tempdir}/#{file_name}"
 
         # Copy files over
         mkdir target
@@ -78,24 +79,24 @@ def package
 
         # Clean up files
         Dir.chdir(target) do
-            `sed -i 's/Barron Minecraft DOTA/Minecraft DOTA/' server.properties`
-            `sed -i 's/Barron Minecraft/Minecraft Dota/' plugins/CommandBook/config.yml`
+            system "sed -i 's/Barron Minecraft DOTA/Minecraft DOTA/' server.properties"
+            system "sed -i 's/Barron Minecraft/Minecraft Dota/' plugins/CommandBook/config.yml"
             rm_r "plugins/MessageChangerLite"
-            `sed -i '/^users:$/q' plugins/PermissionsEx/permissions.yml`
+            system "sed -i '/^users:$/q' plugins/PermissionsEx/permissions.yml"
         end
 
         # Compress files
         Dir.chdir(tempdir) do
-            `zip -r #{name}.zip #{name}`
+            system "zip -r #{file_name}.zip #{file_name}"
         end
-        mv "#{tempdir}/#{name}.zip" "."
-        puts "Release created in #{name}.zip"
+        mv "#{tempdir}/#{file_name}.zip", "."
+        puts "Release created in #{file_name}.zip"
     end
 end
 
 def which(cmd)
     exts = ENV['PATHEXT'] ? ENV['PATHEXT'].split(';') : ['']
-    ENV['PATH'].split(FILE::PATH_SEPARATOR).each do |path|
+    ENV['PATH'].split(File::PATH_SEPARATOR).each do |path|
         exts.each do |ext|
             exe = File.join(path, "#{cmd}#{ext}")
             return exe if File.executable? exe
