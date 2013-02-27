@@ -12,9 +12,7 @@ MINECRAFT_START="minecraft.sh start"
 MINECRAFT_STOP="minecraft.sh stop"
 
 desc "Create an inital backup of the world file to restore from later"
-task :backup do
-    backup
-end
+task :backup => "#{BACKUP_PATH}"
 
 desc "Reset the teams and restore the world to its original state."
 task :restore do
@@ -34,10 +32,9 @@ task :package do
     package
 end
 
-def backup
-    # Check if the world exists or if we've already taken a backup
-    File.exist?("#{WORLD_PATH}/level.dat") or abort("The world '$WORLD_PATH' wasn't found")
-    File.exist?(BACKUP_PATH)              and abort("Backup already exists at #{BACKUP_PATH}")
+directory "#{BACKUP_PATH}" do
+    # Check if the world exists
+    File.exist?("#{WORLD_PATH}/level.dat") || abort("The world '$WORLD_PATH' wasn't found")
 
     # Create the backup folder and copy the world to it
     mkdir_p BACKUP_PATH
