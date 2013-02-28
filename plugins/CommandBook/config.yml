@@ -86,17 +86,15 @@ component:
     stored-messages:
         motd: |-
             `YHello, `w%name% `Yand welcome to Barron Minecraft
-            `YBe sure to read `whttp://bit.ly/mcdota `Ybefore you play
-            `YFor more information try `w/help `Yor `w/rules
+            `YBe sure to read `whttp://barron.nu/mcdota `Ybefore you play
             `YIf you are ready to begin, type `r/red `Yor `b/blue `Yto join a team
-            `rGates stuck? You can /surrender to end the game.
         rules: |-
-            `rRULES:
             `Y- Be nice and play honorably, we're all here to have fun.   
             `Y- Work together with your team, all for one and one for all. 
-            `Y- No entering the opposing base until all towers are down. 
-            `Y- No entering the opposing spawn area.
-            `Y- No cheats hacks or exploits, you will be banned. 
+            `Y- No cheats, hacks or exploits.  Go to test.barroncraft.com
+            `Y- No spamming or posting unsolicited server advertisements.
+            `Y- Don't go outside the normal playing area of the map.
+            `rSomeone breaking `w/rules`Y? Send an email to report@barroncraft.com
     spawn-locations:
         exact-spawn: false
     god:
