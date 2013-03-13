@@ -24,6 +24,7 @@ settings:
   spam-exclusions:
   - /skill
   stop-message: Server restarting. Brb
+  snapshot-protocol: true
 world-settings:
   default:
     growth-chunks-per-tick: 650
