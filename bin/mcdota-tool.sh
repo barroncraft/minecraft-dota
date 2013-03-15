@@ -8,7 +8,7 @@ minecraft_start() { minecraft.sh start; }
 minecraft_stop() { minecraft.sh stop; }
 
 # Change this to your server's root directory
-SERVER_DIR=`pwd` 
+SERVER_DIR=`pwd` # example: "/path/to/server/dir"
 
 # Path to store the dota world backup at.  Will be automaticly be created if it doesn't exist.
 BACKUP_PATH="backups/dota/original"
