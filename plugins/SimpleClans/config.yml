@@ -1,4 +1,4 @@
-safe-civilians: false
+safe-civilians: true
 tag:
   default-color: '8'
   max-length: 5
