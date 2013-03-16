@@ -27,6 +27,7 @@ groups:
     - deathcontrol.info
     - commandbook.motd
     - commandbook.rules
+    - commandbook.who
     - chestbank.use.*
 users:
   NullReff:
