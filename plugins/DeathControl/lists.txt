@@ -1,6 +1,6 @@
 # ======= FILE INFORMATION =======
 # Lines starting with # and empty lines will be ignored.
-# 
+#
 # Documentation about how to configure this file can be found at:
 # http://dev.bukkit.org/server-mods/deathcontrol/pages/lists/
 

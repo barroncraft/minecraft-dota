@@ -1,4 +1,3 @@
-
 # Use users' display names rather than than their raw username in various messages. Display names are set by other plugins.
 use-display-names: true
 
@@ -11,18 +10,18 @@ broadcast-changes: true
 # Disables some features to be compatible with badly-written server wrappers.
 crappy-wrapper-compat: true
 
-# When this setting is enabled, CommandBook's commands will be registered AFTER every 
+# When this setting is enabled, CommandBook's commands will be registered AFTER every
 # other plugin's commands. If any other plugin registers a command that conflicts with
-# one of CommandBook's commands, the CommandBook command will be accessible with 
-# /commandbook:<command>, and the other plugin's command will be accessible 
+# one of CommandBook's commands, the CommandBook command will be accessible with
+# /commandbook:<command>, and the other plugin's command will be accessible
 # with /<command>
 low-priority-command-registration: false
 
 # Give operators (set with the Minecraft /op command) all permissions.
 op-permissions: false
 
-# A list of enabled and disabled components. Components in the disabled list 
-# will automatically be removed from the enabled list. Fully qualified class names can 
+# A list of enabled and disabled components. Components in the disabled list
+# will automatically be removed from the enabled list. Fully qualified class names can
 # or aliases (automatically added to the list by CommandBook) can be used as component names.
 components:
     disabled:
@@ -89,8 +88,8 @@ component:
             `YBe sure to read `whttp://barron.nu/mcdota `Ybefore you play
             `YIf you are ready to begin, type `r/red `Yor `b/blue `Yto join a team
         rules: |-
-            `Y- Be nice and play honorably, we're all here to have fun.   
-            `Y- Work together with your team, all for one and one for all. 
+            `Y- Be nice and play honorably, we're all here to have fun.
+            `Y- Work together with your team, all for one and one for all.
             `Y- No cheats, hacks or exploits.  Go to test.barroncraft.com
             `Y- No spamming or posting unsolicited server advertisements.
             `Y- Don't go outside the normal playing area of the map.

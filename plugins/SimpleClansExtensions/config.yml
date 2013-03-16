@@ -3,10 +3,10 @@ joinDifference: 1
 maxTimeEmpty: 300
 teamBalancing: true
 clans:
- red: 
+ red:
   baseRegion: redBase
   spawnRegion: redspawn
-  spawn: 
+  spawn:
    x: -1189
    y: 48
    z: 444

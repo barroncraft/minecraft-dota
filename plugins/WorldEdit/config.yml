@@ -55,7 +55,7 @@ history:
     expiration: 10
 
 wand-item: 271
-shell-save-type: 
+shell-save-type:
 no-double-slash: false
 no-op-permissions: false
 debug: false
