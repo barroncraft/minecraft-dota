@@ -16,3 +16,4 @@ DeathCauses:
     whitelist:
     - armor
     - weapons
+    - other
