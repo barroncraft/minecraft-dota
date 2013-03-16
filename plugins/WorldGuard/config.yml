@@ -1,24 +1,3 @@
-#
-# WorldGuard's main configuration file
-#
-# This is the global configuration file. Anything placed into here will
-# be applied to all worlds. However, each world has its own configuration
-# file to allow you to replace most settings in here for that world only.
-#
-# About editing this file:
-# - DO NOT USE TABS. You MUST use spaces or Bukkit will complain. If
-#   you use an editor like Notepad++ (recommended for Windows users), you
-#   must configure it to "replace tabs with spaces." In Notepad++, this can
-#   be changed in Settings > Preferences > Language Menu.
-# - Don't get rid of the indents. They are indented so some entries are
-#   in categories (like "enforce-single-session" is in the "protection"
-#   category.
-# - If you want to check the format of this file before putting it
-#   into WorldGuard, paste it into http://yaml-online-parser.appspot.com/
-#   and see if it gives "ERROR:".
-# - Lines starting with # are comments and so they are ignored.
-#
-
 protection:
     enforce-single-session: true
     item-durability: true
@@ -57,7 +36,7 @@ regions:
 simulation:
     sponge:
         redstone: false
-        enable: true
+        enable: false
         radius: 3
 fire:
     disable-lava-fire-spread: true
@@ -68,23 +47,23 @@ default:
     disable-health-regain: false
     pumpkin-scuba: false
 mobs:
-    anti-wolf-dumbness: false
+    anti-wolf-dumbness: true
     block-creature-spawn: []
     block-fireball-explosions: true
     block-fireball-block-damage: true
-    block-creeper-block-damage: false
+    block-creeper-block-damage: true
     disable-enderman-griefing: true
-    block-creeper-explosions: false
-    block-enderdragon-block-damage: false
-    block-painting-destroy: false
+    block-creeper-explosions: true
+    block-enderdragon-block-damage: true
+    block-painting-destroy: true
     block-plugin-spawning: false
-    block-wither-explosions: false
-    block-wither-block-damage: false
-    block-wither-skull-explosions: false
-    block-wither-skull-block-damage: false
-    block-enderdragon-portal-creation: false
-    block-item-frame-destroy: false
-    block-above-ground-slimes: false
+    block-wither-explosions: true
+    block-wither-block-damage: true
+    block-wither-skull-explosions: true
+    block-wither-skull-block-damage: true
+    block-enderdragon-portal-creation: true
+    block-item-frame-destroy: true
+    block-above-ground-slimes: true
 dynamics:
     disable-grass-growth: true
     disable-ice-melting: true
@@ -93,7 +72,7 @@ dynamics:
     disable-snow-melting: true
     disable-leaf-decay: true
     disable-ice-formation: true
-    disable-mycelium-spread: false
+    disable-mycelium-spread: true
 blacklist:
     use-as-whitelist: false
     logging:
@@ -112,16 +91,16 @@ blacklist:
 summary-on-start: true
 weather:
     always-raining: false
-    disable-powered-creepers: false
+    disable-powered-creepers: true
     disable-weather: true
-    disable-lightning-strike-fire: false
+    disable-lightning-strike-fire: true
     always-thundering: false
     prevent-lightning-strike-blocks: []
-    disable-thunderstorm: false
-    disable-pig-zombification: false
+    disable-thunderstorm: true
+    disable-pig-zombification: true
 crops:
-    disable-creature-trampling: false
-    disable-player-trampling: false
+    disable-creature-trampling: true
+    disable-player-trampling: true
 use-player-move-event: true
 op-permissions: true
 player-damage:
@@ -133,7 +112,7 @@ player-damage:
     teleport-on-suffocation: false
     disable-death-messages: false
     disable-mob-damage: false
-    disable-fall-damage: false
+    disable-fall-damage: true
     disable-explosion-damage: false
     disable-suffocation-damage: false
     disable-contact-damage: false
@@ -141,8 +120,8 @@ player-damage:
 auto-invincible: false
 host-keys: {}
 security:
-    deop-everyone-on-join: false
-    block-in-game-op-command: false
+    deop-everyone-on-join: true
+    block-in-game-op-command: true
 gameplay:
     block-potions: []
     block-potions-overly-reliably: false
