@@ -4,44 +4,13 @@
 #
 # For detailed assistance please visit: http://dev.bukkit.org/server-mods/messagechangerlite/
 
-#------- Default Configuration
-
-# Configuration Version
 configVer: '2.2'
-
-# Error Log Enabled
-# Enable logging to server console
-# Warning and Severe will still be logged.
-errorLogEnabled: true
-
-# Debug Log Enabled
-# Enable more logging.. could be messy!
+errorLogEnabled: false
 DebugLogEnabled: false
-
-# Check for Update
-# Will check if there is a new version of the plugin out.
-checkForUpdate: true
-
-# Auto Update Config
-# This will overwrite any changes outside the configuration parameters!
+checkForUpdate: false
 autoUpdateConfig: false
-
-# Save Config
-# This will overwrite any changes outside the configuration parameters!
-# Only needed if you use ingame commands to change the configuration.
 saveConfig: false
-
-#-------- Plugin Configuration
-
-# You can use the following variables:
-# %pName = DisplayName of the Player
-# %world = World the player is in
-# %fromWorld = World the player was in (Only CHANGED_WORLD Message)
-# %msg = default message
-
-# Order in which the categories are parsed
 categoryOrder: []
-
 message-category:
     default:
         SERVER_STOP: "%msg"
