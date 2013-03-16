@@ -1,5 +1,6 @@
 /day = /time set 0
 /night = /time set 20000
+/admin = /clan create &2admin admin
 *:/team = /clan roster
 *:/scores = /clan leaderboard
 *:/recall = /clan home
