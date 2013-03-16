@@ -2,8 +2,8 @@ disable-other-villagers: true
 block-villager-spawns: false
 save-instantly: true
 
-create-player-shop-with-command: true
-create-player-shop-with-egg: true
+create-player-shop-with-command: false
+create-player-shop-with-egg: false
 deleting-player-shop-returns-egg: false
 allow-custom-quantities: true
 allow-player-book-shop: true
