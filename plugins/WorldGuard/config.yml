@@ -2,7 +2,7 @@ protection:
     enforce-single-session: true
     item-durability: true
     remove-infinite-stacks: false
-    disable-xp-orb-drops: true
+    disable-xp-orb-drops: false
     disable-obsidian-generators: false
 chest-protection:
     enable: false
