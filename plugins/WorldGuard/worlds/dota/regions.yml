@@ -161,6 +161,14 @@ regions:
         flags: {chest-access: allow}
         owners: {}
         members: {}
+    lavawallwalk:
+        type: cuboid
+        min: {x: -1116.0, y: 32.0, z: 262.0}
+        max: {x: -1108.0, y: 39.0, z: 266.0}
+        priority: 0
+        flags: {passthrough: allow, entry: deny}
+        owners: {}
+        members: {}
     piratechest:
         type: cuboid
         min: {x: -1001.0, y: 38.0, z: 382.0}
