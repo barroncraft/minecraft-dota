@@ -1,5 +1,5 @@
 disable-other-villagers: true
-block-villager-spawns: false
+block-villager-spawns: true
 save-instantly: true
 
 create-player-shop-with-command: false
