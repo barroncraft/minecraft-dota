@@ -21,6 +21,7 @@ groups:
     - worldedit.navigation.unstuck
     - simpleclans.member.can-join
     - simpleclans.member.roster
+    - simpleclans.member.vitals
     - simpleclans.member.home
     - simpleclans.anyone.*
     - deathcontrol.use
