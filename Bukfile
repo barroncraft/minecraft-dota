@@ -1,14 +1,14 @@
-server 'craftbukkit', 'spigot-844', download: 'http://ci.md-5.net/job/Spigot/844/artifact/Spigot-Server/target/spigot.jar'
+server 'spigot', 'build-844', :jenkins => 'http://ci.md-5.net', :file => /spigot\.jar/
 plugin 'commandbook', '2.2'
 plugin 'commandhelper', '3.3.0'
 plugin 'deathcontrol', '1.87'
 plugin 'messagechangerlite', '2.1'
-plugin 'minequery', '1.5', download: 'http://repository.barroncraft.com/downloads/MineQuery-Barroncraft.jar'
+plugin 'minequery', '1.5', :download => 'http://repository.barroncraft.com/downloads/MineQuery-Barroncraft.jar'
 plugin 'nocheatplus', '3.9.0-RC-b488'
-plugin 'permissionsex', '1.19.5', extract: /PermissionsEx.*\.jar/
+plugin 'permissionsex', '1.19.5', :extract => /PermissionsEx.*\.jar/
 plugin 'shopkeepers', '1.13.2'
 plugin 'simpleclans', '2.3.4'
-plugin 'simpleclansextensions', '3.6', download: 'http://repository.barroncraft.com/downloads/SimpleClansExtensions-v3.6.jar'
+plugin 'simpleclansextensions', '3.6', :download => 'http://repository.barroncraft.com/downloads/SimpleClansExtensions-v3.6.jar'
 plugin 'tag', '2.3'
 plugin 'vault', '1.2.17-b224'
 plugin 'worldborder', '1.6.1'
