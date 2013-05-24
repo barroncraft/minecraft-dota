@@ -7,9 +7,27 @@ task :server do
   start_mem = ENV['START_MEM'] || '512M'
   max_mem = ENV['MAX_MEM'] || '1024M'
   gc_threads = ENV['GC_THREADS'] || `nproc`.strip
-  directory = ENV['DIRECTORY'] || '.'
+  server_dir = ENV['SERVER_DIR'] || '.'
+  worlds_dir = ENV['WORLDS_DIR'] || (ENV['SERVER_DIR'] ? "#{ENV['SERVER_DIR']}/worlds" : 'worlds')
 
-  run_server(start_mem, max_mem, gc_threads, directory)
+  set_links(server_dir, worlds_dir)
+  run_server(start_mem, max_mem, gc_threads, server_dir)
+end
+
+def set_links(server_dir, world_dir)
+  Dir.glob("#{world_dir}/**/level.dat") do |level|
+    world_path = level.chomp('/level.dat')
+    world_name = world_path.split('/').last
+    link_path = "#{server_dir}/#{world_name}"
+
+    if !File.exists?(link_path)
+      File.symlink(world_path, link_path)
+    elsif !File.symlink?(link_path)
+      abort "The world '#{world_name}' exists as a file or directory in "\
+            "'#{File.expand_path(server_dir)}'.  Please move it to the "\
+            "worlds directory."
+    end
+  end
 end
 
 def run_server(start_mem, max_mem, gc_threads, directory)
