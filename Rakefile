@@ -1,17 +1,24 @@
+require 'fileutils'
+
 SERVER_NAMES = ['minecraft*.jar', 'craftbukkit*.jar', 'spigot*.jar']
 
 task :default => [:server]
 
 desc 'Start up the server'
 task :server do
-  start_mem = ENV['START_MEM'] || '512M'
-  max_mem = ENV['MAX_MEM'] || '1024M'
+  start_mem  = ENV['START_MEM']  || '512M'
+  max_mem    = ENV['MAX_MEM']    || '1024M'
   gc_threads = ENV['GC_THREADS'] || `nproc`.strip
   server_dir = ENV['SERVER_DIR'] || '.'
   worlds_dir = ENV['WORLDS_DIR'] || (ENV['SERVER_DIR'] ? "#{ENV['SERVER_DIR']}/worlds" : 'worlds')
 
   set_links(server_dir, worlds_dir)
   run_server(start_mem, max_mem, gc_threads, server_dir)
+end
+
+desc 'Prepare the server for running'
+task :build do
+  create_backup("worlds/dota", "backups")
 end
 
 def set_links(server_dir, world_dir)
@@ -28,6 +35,13 @@ def set_links(server_dir, world_dir)
             "worlds directory."
     end
   end
+end
+
+def create_backup(world_path, backups_dir)
+  world_name = world_path.split('/').last
+  FileUtils.mkdir_p(backups_dir)
+  FileUtils.rm_rf("#{backups_dir}/#{world_name}")
+  FileUtils.cp_r(world_path, backups_dir)
 end
 
 def run_server(start_mem, max_mem, gc_threads, directory)
