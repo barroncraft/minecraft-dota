@@ -17,6 +17,7 @@ task :build do
   get_worlds(ENV['WORLDS_DIR']) do |world|
     create_backup(world, ENV['BACKUP_DIR'])
   end
+  exec 'bukin install'
 end
 
 def set_env_defaults
