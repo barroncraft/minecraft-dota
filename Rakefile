@@ -1,6 +1,7 @@
 require 'fileutils'
 
 SERVER_NAMES = ['minecraft*.jar', 'craftbukkit*.jar', 'spigot*.jar']
+DOTA_WORLD_NAME = 'dota'
 
 task :default => [:server]
 
@@ -18,6 +19,17 @@ task :build do
     create_backup(world, ENV['BACKUP_DIR'])
   end
   exec 'bukin install'
+end
+
+desc 'Reset the world and teams back to their original state'
+task :reset do
+  set_env_defaults
+  dota_backup = "#{ENV['BACKUP_DIR']}/#{DOTA_WORLD_NAME}/"
+  unless File.directory?(dota_backup)
+    abort "Backup of '#{DOTA_WORLD_NAME}' was not found.  Did you forget to run 'rake build'?"
+  end
+  restore_backup(DOTA_WORLD_NAME, ENV['WORLDS_DIR'], ENV['BACKUP_DIR'])
+  FileUtils.rm_rf("#{ENV['SERVER_DIR']}/plugins/SimpleClans/SimpleClans.db")
 end
 
 def set_env_defaults
@@ -55,6 +67,11 @@ def create_backup(world_path, backups_dir)
   FileUtils.mkdir_p(backups_dir)
   FileUtils.rm_rf("#{backups_dir}/#{world_name}")
   FileUtils.cp_r(world_path, backups_dir)
+end
+
+def restore_backup(world_name, world_dir, backups_dir)
+  FileUtils.rm_rf("#{world_dir}/#{world_name}")
+  FileUtils.cp_r("#{backups_dir}/#{world_name}", world_dir)
 end
 
 def run_server(start_mem, max_mem, gc_threads, directory)
