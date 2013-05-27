@@ -6,24 +6,36 @@ task :default => [:server]
 
 desc 'Start up the server'
 task :server do
-  start_mem  = ENV['START_MEM']  || '512M'
-  max_mem    = ENV['MAX_MEM']    || '1024M'
-  gc_threads = ENV['GC_THREADS'] || `nproc`.strip
-  server_dir = ENV['SERVER_DIR'] || '.'
-  worlds_dir = ENV['WORLDS_DIR'] || (ENV['SERVER_DIR'] ? "#{ENV['SERVER_DIR']}/worlds" : 'worlds')
-
-  set_links(server_dir, worlds_dir)
-  run_server(start_mem, max_mem, gc_threads, server_dir)
+  set_env_defaults
+  set_links(ENV['SERVER_DIR'], ENV['WORLDS_DIR'])
+  run_server(ENV['START_MEM'], ENV['MAX_MEM'], ENV['GC_THREADS'], ENV['SERVER_DIR'])
 end
 
 desc 'Prepare the server for running'
 task :build do
-  create_backup("worlds/dota", "backups")
+  set_env_defaults
+  get_worlds(ENV['WORLDS_DIR']) do |world|
+    create_backup(world, ENV['BACKUP_DIR'])
+  end
 end
 
-def set_links(server_dir, world_dir)
+def set_env_defaults
+  ENV['START_MEM']  ||= '512M'
+  ENV['MAX_MEM']    ||= '1024M'
+  ENV['GC_THREADS'] ||= `nproc`.strip
+  ENV['WORLDS_DIR'] ||= (ENV['SERVER_DIR'] ? "#{ENV['SERVER_DIR']}/worlds" : 'worlds')
+  ENV['BACKUP_DIR'] ||= (ENV['SERVER_DIR'] ? "#{ENV['SERVER_DIR']}/backups" : 'backups')
+  ENV['SERVER_DIR'] ||= '.'
+end
+
+def get_worlds(world_dir)
   Dir.glob("#{world_dir}/**/level.dat") do |level|
-    world_path = level.chomp('/level.dat')
+    yield level.chomp('/level.dat')
+  end
+end
+
+def set_links(server_dir, worlds_dir)
+  get_worlds(worlds_dir) do |world_path|
     world_name = world_path.split('/').last
     link_path = "#{server_dir}/#{world_name}"
 
@@ -45,7 +57,6 @@ def create_backup(world_path, backups_dir)
 end
 
 def run_server(start_mem, max_mem, gc_threads, directory)
-
   Dir.chdir(directory)
   servers = Dir.glob(SERVER_NAMES)
 
