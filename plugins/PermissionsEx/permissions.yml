@@ -1,17 +1,29 @@
 groups:
-  Admins:
+  Administrators:
     prefix: '&5'
     suffix: '&c'
     permissions:
     - '*'
     options:
       rank: '0'
-  Members:
+  Moderators:
+    inheritance:
+    - Players
+    permissions:
+    - commandbook.mute
+    - commandbook.kick
+    - commandbook.bans.ban
+    - commandbook.bans.unban
+    - commandbook.bans.isbanned
+    - commandbook.bans.baninfo
+    options:
+      rank: '1'
+  Players:
     default: true
     prefix: '&e'
     suffix: '&f'
     options:
-      rank: '1'
+      rank: '2'
     permissions:
     - modifyworld.*
     - bukkit.command.list
@@ -33,4 +45,7 @@ groups:
 users:
   NullReff:
     group:
-    - Admins
+    - Administrators
+  bluefishnair:
+    group:
+    - Moderators
