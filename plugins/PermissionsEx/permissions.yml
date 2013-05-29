@@ -41,6 +41,9 @@ groups:
     - commandbook.motd
     - commandbook.rules
     - commandbook.who
+    - commandbook.say.me
+    - commandbook.msg
+    - commandbook.away
     - chestbank.use.*
 users:
   NullReff:
