@@ -10,12 +10,15 @@ groups:
     inheritance:
     - Players
     permissions:
+    - bukkit.command.gamemode
+    - bukkit.command.teleport
     - commandbook.mute
     - commandbook.kick
     - commandbook.bans.ban
     - commandbook.bans.unban
     - commandbook.bans.isbanned
     - commandbook.bans.baninfo
+    - vanish.standard
     options:
       rank: '1'
   Players:
