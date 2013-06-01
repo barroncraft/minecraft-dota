@@ -19,6 +19,10 @@ groups:
     - commandbook.bans.isbanned
     - commandbook.bans.baninfo
     - vanish.standard
+    - fulljoin.allow
+    - commandsigns.create.*
+    - commandsigns.remove
+    - plugin.reload
     options:
       rank: '1'
   Spectators:
@@ -55,6 +59,10 @@ groups:
     - commandbook.msg
     - commandbook.away
     - chestbank.use.*
+    - ka.stats
+    - ka.topstats
+    - ka.toggle
+    - commandsigns.use.regular
 users:
   NullReff:
     group:
