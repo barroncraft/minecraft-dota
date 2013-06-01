@@ -62,3 +62,6 @@ users:
   bluefishnair:
     group:
     - Moderators
+  Pyrofiredelta:
+    group:
+    - Moderators
