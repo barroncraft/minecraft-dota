@@ -32,7 +32,7 @@ enable killstreaks: true
 6 kills: '&d<killer> &6is dominating!'
 7 kills: '&d<killer> &6is godlike!'
 8 kills: '&d<killer> &6needs to be shut down!'
-smackdown: "&d<killer> &6just iced &b<player>&6's killing spree!"
+smackdown: '&b<player> &6was shut down by &d<killer>&6!'
 db:
   host: localhost
   user: root
