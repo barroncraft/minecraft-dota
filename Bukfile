@@ -2,7 +2,6 @@ server 'spigot', 'build-844', :jenkins => 'http://ci.md-5.net', :file => /spigot
 plugin 'commandbook', '2.2'
 plugin 'commandhelper', '3.3.0'
 plugin 'deathcontrol', '1.87'
-plugin 'messagechangerlite', '2.1'
 plugin 'minequery', '1.5', :download => 'http://repository.barroncraft.com/downloads/MineQuery-Barroncraft.jar'
 plugin 'nocheatplus', '3.9.0-RC-b488'
 plugin 'permissionsex', '1.19.5', :extract => /PermissionsEx.*\.jar/
