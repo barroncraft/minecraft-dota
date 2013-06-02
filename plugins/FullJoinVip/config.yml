@@ -1,0 +1,12 @@
+#
+#	Configuration file for FullJoinVip
+#
+
+# Player without permission will see that message when
+# server will be full (you can use color codes and ^ as new line)
+
+full-message: '&aServer Full!^^You can get &cVIP&a account^&aand have always reserved slot!'
+
+# You need to restart the server after the first run of this plugin.
+# Remember, the permission to a VIP join in full server is (fulljoin.allow)
+# FullJoinVip by: BoomerBR
