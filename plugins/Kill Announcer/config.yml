@@ -31,7 +31,7 @@ enable killstreaks: true
 5 kills: '&d<killer> &6is unstoppable!'
 6 kills: '&d<killer> &6is dominating!'
 7 kills: '&d<killer> &6is godlike!'
-8 kills: '&d<killer> &6needs to be shut down!'
+8+ kills: '&d<killer> &6needs to be shut down!'
 smackdown: '&b<player> &6was shut down by &d<killer>&6!'
 db:
   host: localhost
