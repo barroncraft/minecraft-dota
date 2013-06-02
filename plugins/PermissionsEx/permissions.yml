@@ -23,6 +23,10 @@ groups:
     - commandsigns.create.*
     - commandsigns.remove
     - plugin.reload
+    - colorme.*
+    - colorme.list
+    - colorme.sign
+    - colorme.chat
     options:
       rank: '1'
   Spectators:
