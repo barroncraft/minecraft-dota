@@ -27,6 +27,8 @@ groups:
     - colorme.list
     - colorme.sign
     - colorme.chat
+    - worldguard.region.bypass.*
+    - worldguard.chest-protection.override
     options:
       rank: '1'
   Spectators:
