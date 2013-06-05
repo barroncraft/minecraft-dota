@@ -82,3 +82,6 @@ users:
   abounds_abs:
     group:
     - Moderators
+  eltica3:
+    group:
+    - Spectators
