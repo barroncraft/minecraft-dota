@@ -26,13 +26,13 @@ Rewards:
     amount: 1
 Remove default death message: false
 enable killstreaks: true
-3 kills: '<killer> is on a killing spree!'
-4 kills: '<killer> is on a rampage!'
-5 kills: '<killer> is unstoppable!'
-6 kills: '<killer> is dominating!'
-7 kills: '<killer> is godlike!'
-8+ kills: '<killer> needs to be shut down!'
-smackdown: '<player> was shut down by <killer>!'
+3 kills: '&a<killer> &gois on a killing spree!'
+4 kills: '&a<killer> &gois on a rampage!'
+5 kills: '&a<killer> &gois unstoppable!'
+6 kills: '&a<killer> &gois dominating!'
+7 kills: '&a<killer> &gois godlike!'
+8+ kills: '&a<killer> &goneeds to be shut down!'
+smackdown: '&p<player> &gowas shut down by &a<killer>&go!'
 db:
   host: localhost
   user: root
