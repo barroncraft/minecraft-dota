@@ -85,3 +85,6 @@ users:
   eltica3:
     group:
     - Spectators
+  B0ilerplate:
+    group:
+    - Moderators
