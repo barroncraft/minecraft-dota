@@ -11,7 +11,7 @@ multi-world:
   allow-cross-world: true
   limited-worlds: []
 DeathCauses:
-  CACTUS, DROWNING, SUFFOCATION, FALL, VOID, SUICIDE, STARVATION, LIGHTNING, LAVA, FIRE, EXPLOSION, MOB, PLAYER, UNKNOWN:
+  CACTUS, DROWNING, SUFFOCATION, FALL, VOID, SUICIDE, STARVATION, LIGHTNING, LAVA, FIRE, EXPLOSION, MOB, PLAYER, MAGIC, UNKNOWN:
     keep-inventory: true
     whitelist:
     - armor
