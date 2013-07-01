@@ -3,6 +3,7 @@ groups:
     prefix: '&5'
     suffix: '&c'
     permissions:
+    - -vanish.effects.*
     - '*'
     options:
       rank: '0'
