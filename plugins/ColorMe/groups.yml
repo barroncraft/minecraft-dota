@@ -1,0 +1,8 @@
+staff:
+  colors:
+    default: ''
+  prefix:
+    default: '&7[&2Staff&7]'
+  suffix:
+    default: ''
+  members:
