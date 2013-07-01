@@ -1,13 +1,13 @@
 groups:
   Administrators:
-    prefix: '&5'
-    suffix: '&c'
+    prefix: '&f[&4Staff&f]'
     permissions:
     - -vanish.effects.*
     - '*'
     options:
       rank: '0'
   Moderators:
+    prefix: '&f[&2Staff&f]'
     inheritance:
     - Spectators
     permissions:
@@ -32,19 +32,25 @@ groups:
     - worldguard.chest-protection.override
     options:
       rank: '1'
+  Builders:
+    prefix: '&f[&bStaff&f]'
+    inheritance:
+    - Players
+    options:
+      rank: '2'
   Spectators:
     inheritance:
     - Players
     permissions:
     - spectate.*
     options:
-      rank: '2'
+      rank: '3'
   Players:
     default: true
     prefix: '&e'
     suffix: '&f'
     options:
-      rank: '3'
+      rank: '4'
     permissions:
     - modifyworld.*
     - bukkit.command.list
