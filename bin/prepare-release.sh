@@ -23,11 +23,16 @@ cp -r * $TARGET
 cd $TARGET
 sed -i 's/Barron Minecraft DOTA/Minecraft DOTA/' server.properties
 sed -i 's/Barron Minecraft/Minecraft Dota/' plugins/CommandBook/config.yml
-rm -r plugins/MessageChangerLite
+rm plugins/ColorMe/players.yml
 sed -i '/^users:$/q' plugins/PermissionsEx/permissions.yml
 mv worlds/dota .
-rm -r worlds
-rm -r bin/prepare-release.sh
+rm -r worlds/
+rm -r bin/
+rm Bukfile Bukfile.lock Rakefile
+
+# Add server start scripts
+echo "java -jar spigot.jar" > server.sh
+echo "java -jar spigot.jar" > server.bat
 
 # Compress files
 cd $TEMP_DIR
