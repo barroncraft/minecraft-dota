@@ -18,6 +18,7 @@ task :build do
   get_worlds(ENV['WORLDS_DIR']) do |world|
     create_backup(world, ENV['BACKUP_DIR'])
   end
+  set_links(ENV['SERVER_DIR'], ENV['WORLDS_DIR'])
   exec 'bukin install'
 end
 
