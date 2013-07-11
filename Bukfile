@@ -9,7 +9,7 @@ plugin 'shopkeepers', '1.14.2', :download => 'http://dev.bukkit.org/media/files/
 plugin 'simpleclans', '2.3.4'
 plugin 'simpleclansextensions', '3.6', :download => 'http://repository.barroncraft.com/downloads/SimpleClansExtensions-v3.6.jar'
 plugin 'spectate', '1.11.1'
-plugin 'tag', '2.4'
+plugin 'tag', '2.5'
 plugin 'vanish', '3.18.1'
 plugin 'vault', '1.2.17-b224'
 plugin 'worldborder', '1.6.1'
