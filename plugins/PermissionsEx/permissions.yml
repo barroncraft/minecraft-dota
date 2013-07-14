@@ -11,6 +11,8 @@ groups:
     inheritance:
     - Spectators
     permissions:
+    - banvote.admin
+    - banvote.novote
     - bukkit.command.gamemode
     - bukkit.command.teleport
     - commandbook.mute
@@ -47,6 +49,13 @@ groups:
       rank: '3'
     permissions:
     - modifyworld.*
+    - banvote.cmd
+    - mutevote.cmd
+    - kickvote.cmd
+    - customvote.cmd
+    - banvote.vote
+    - mutevote.vote
+    - kickvote.vote
     - bukkit.command.list
     - bukkit.command.tell
     - bukkit.command.me
