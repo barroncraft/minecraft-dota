@@ -52,7 +52,6 @@ groups:
     - banvote.cmd
     - mutevote.cmd
     - kickvote.cmd
-    - customvote.cmd
     - banvote.vote
     - mutevote.vote
     - kickvote.vote
