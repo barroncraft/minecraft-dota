@@ -4,7 +4,7 @@ plugin 'commandbook', '2.2'
 plugin 'commandhelper', '3.3.0'
 plugin 'deathcontrol', '1.87'
 plugin 'minequery', '1.5', :download => 'http://repository.barroncraft.com/downloads/MineQuery-Barroncraft.jar'
-plugin 'nocheatplus', '3.9.3-RC-b539'
+plugin 'nocheatplus', '3.10.1-beta-sMD5NET-b601'
 plugin 'permissionsex', '1.19.5', :extract => /PermissionsEx.*\.jar/
 plugin 'shopkeepers', '1.14.2', :download => 'http://dev.bukkit.org/media/files/716/304/Shopkeepers.jar'
 plugin 'simpleclans', '2.3.4'
