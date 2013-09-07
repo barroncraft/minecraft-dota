@@ -12,6 +12,12 @@ task :server do
   run_server(ENV['START_MEM'], ENV['MAX_MEM'], ENV['GC_THREADS'], ENV['SERVER_DIR'])
 end
 
+desc 'Clean out all changed and added files'
+task :clean do
+  sh 'git reset HEAD --hard'
+  sh 'git clean -fd'
+end
+
 desc 'Prepare the server for running'
 task :build do
   set_env_defaults
