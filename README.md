@@ -20,7 +20,7 @@ Read the [guide on Barron Wiki](http://wiki.barroncraft.com/wiki/Minecraft_Dota)
 Contributing
 ------------
 
-All contributions should be sent in as [pull requests](https://github.com/barroncraft/minecraft-dota-config/pulls) or to contact@barroncraft.com.  When submitting changes, please:
+All contributions should be sent in as [pull requests](https://github.com/barroncraft/minecraft-dota-config/pulls) or to [contact@barroncraft.com](mailto:contact@barroncraft.com).  When submitting changes, please:
 
 * Use Unix style line endings
 * Use 2 space indentation
