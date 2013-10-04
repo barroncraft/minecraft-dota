@@ -6,7 +6,7 @@ Moba style game similar to [LOL](leagueoflegends.com) and [DOTA](http://www.play
 Installing
 ----------
 
-For large servers, we recommend using our [automated installer](https://github.com/barroncraft/barroncraft-puppet) (supports Debian 7 and CentOS 6)
+For quick setups, we recommend using our [automated installer](https://github.com/barroncraft/barroncraft-puppet) (supports Debian 7 and CentOS 6)
 
     wget -qO- http://barron.nu/install | sh
 
