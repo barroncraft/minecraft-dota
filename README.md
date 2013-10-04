@@ -1,7 +1,7 @@
 Minecraft Dota
 ==============
 
-Moba style game similar to [LOL](leagueoflegends.com) and [DOTA](http://www.playdota.com/) built in Minecraft.
+Moba style game similar to [LOL](http://leagueoflegends.com) and [DOTA](http://www.playdota.com/) built in Minecraft.
 
 Installing
 ----------
