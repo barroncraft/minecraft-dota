@@ -34,4 +34,4 @@ Credits
 
 * Original Map by [Hypixel](http://hypixel.net/)
 * Configuration by [Nullreff](https://github.com/Nullreff)
-* More on the [Barroncraft credits page](http://barroncraft.com/credits/)
+* More on the [Barroncraft credits page](http://barroncraft.com/about/credits/)
