@@ -26,7 +26,7 @@ All contributions should be sent in as [pull requests](https://github.com/barron
 * Use 2 space indentation
 * Make sure config files are [valid yaml](http://yaml-online-parser.appspot.com/)
 * Use [Bukin](https://github.com/Nullreff/bukin) for installing plugins
-* Only send small, easy to merge world map changes.  For larger changes, [request access](http://barron.nu/apply) to our build server.
+* Only send small, world map changes.  For larger changes, [request access](http://barron.nu/apply) to our build server.
 * Attach any [related issues](https://github.com/barroncraft/minecraft-dota-config/issues)
 
 Credits
