@@ -25,6 +25,7 @@ sed -i 's/Barron Minecraft DOTA/Minecraft DOTA/' server.properties
 sed -i 's/Barron Minecraft/Minecraft Dota/' plugins/CommandBook/config.yml
 rm plugins/ColorMe/players.yml
 sed -i '/^users:$/q' plugins/PermissionsEx/permissions.yml
+echo '' > plugins/ColorMe/players.yml
 mv worlds/dota .
 rm -r worlds/
 rm -r bin/
