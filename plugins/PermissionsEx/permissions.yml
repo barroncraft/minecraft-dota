@@ -34,7 +34,12 @@ groups:
     inheritance:
     - Players
     permissions:
-    - spectate.*
+    - spectate.on
+    - spectate.off
+    - spectate.mode
+    - spectate.angle
+    - spectate.scan
+    - spectate.help
     options:
       rank: '2'
   Players:
