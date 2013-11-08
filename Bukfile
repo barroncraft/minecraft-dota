@@ -1,4 +1,4 @@
-server 'spigot', 'build-1112', :jenkins => 'http://ci.md-5.net', :file => /spigot\.jar/
+server 'Spigot-1.7', 'build-14', :jenkins => 'http://ci.md-5.net', :file => /spigot\.jar/
 plugin 'banvote', '0.1.1.1'
 plugin 'commandbook', '2.2'
 plugin 'commandhelper', '3.3.0'

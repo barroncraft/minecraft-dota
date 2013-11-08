@@ -22,7 +22,7 @@ settings:
   restart-script: ~/bin/minecraft.sh start
   prevent-proxies: false
   netty-threads: 3
-  snapshot-protocol: false
+  snapshot-protocol: true
 commands:
   spam-exclusions:
   - /skill
